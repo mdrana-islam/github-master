@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        form .student-info label,.additional label{
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+    <title>Club joining form</title>
+</head>
+<body>
+    <header>
+        <h3>CSE department club joining form</h3>
+    </header>
+    <main>
+        <form>
+            <fieldset class="student-info">
+            <legend>Student info</legend>
+            <label for="name">Name</label>
+            <input type="text" name="basic-info" id="name">
+            <label for="email">Email Address</label>
+            <input type="email" name="basic-info" id="email">
+            <label for="student-id">Student ID</label>
+            <input type="text" name="basic-info" id="student-id">
+        </fieldset>
+        <fieldset>
+            <legend>Interested Club</legend>
+            <input type="radio" name="club" id="csc">
+            <label for="csc">Cyber Security Club</label>
+            <input type="radio" name="club" id="ml">
+            <label for="ml">Machine Learning Club</label>
+            <input type="radio" name="club" id="pgc">
+            <label for="pgc">Programming Club</label>
+        </fieldset>
+        <fieldset>
+            <legend>Programming language you know</legend>
+            <input type="checkbox" name="Skill" id="c">
+            <label for="c">C language</label>
+            <input type="checkbox" name="Skill" id="c++">
+            <label for="c++">C++ language</label>
+            <input type="checkbox" name="Skill" id="c#">
+            <label for="c#">C# language</label>
+            <input type="checkbox" name="Skill" id="python">
+            <label for="python">Python language</label>
+        </fieldset>
+        <fieldset class="additional">
+            <legend>Additional Info</legend>
+            <label for="additional">Why you want to join this club</label>
+            <textarea cols="40" rows="4" name="additional" id="additional"></textarea>
+        </fieldset>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
