@@ -1,0 +1,31 @@
+body{
+    margin: o auto;
+}
+
+.card-container{
+    display: flex;
+    width: 700px;
+    gap: 50px;
+}
+.card img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.card{
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    box-shadow: 10px 5px 5px grey;
+}
+
+.card:hover{
+    background-color: burlywood;
+}
+
+.card button{
+    background-color: aqua;
+    border-radius: 5px;
+}
